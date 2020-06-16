@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "It is a typo",
+    "description": "Changes all instances of imbox to inbox, as it should be",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
