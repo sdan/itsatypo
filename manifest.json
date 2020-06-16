@@ -2,12 +2,16 @@
 "manifest_version": 2,
     "name": "It is a typo",
     "description": "Changes all instances of imbox to inbox, as it should be",
-    "version": "1.0",
+    "version": "2.0",
+    "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Change all instances of Imbox to Inbox"
+  },
     "content_scripts": [
         {
-            "matches": [
-                "*://*/*"
-            ],
+            "matches": ["<all_urls>"],
             "js": [
                 "content.js"
             ],
