@@ -1,5 +1,5 @@
 # It is a typo
-Replaces all instances of Imbox to Inbox
+Replaces all instances of **Imbox** to **Inbox**
 
 # How to install?
 1. Download the zip: [https://github.com/dantuluri/itsatypo/archive/master.zip](https://github.com/dantuluri/itsatypo/archive/master.zip)
